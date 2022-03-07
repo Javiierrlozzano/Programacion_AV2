@@ -1,10 +1,6 @@
-@extends('layouts.app')
-
-@section('template_title')
-    Ruta
-@endsection
-
-@section('content')
+@extends('platilla')
+  
+@section('Home')
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">

@@ -1,10 +1,5 @@
-@extends('layouts.app')
-
-@section('template_title')
-    {{ $ruta->name ?? 'Show Ruta' }}
-@endsection
-
-@section('content')
+@extends('platilla')
+@section('Home')
     <section class="content container-fluid">
         <div class="row">
             <div class="col-md-12">

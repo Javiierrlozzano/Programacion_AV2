@@ -1,10 +1,5 @@
-@extends('layouts.app')
-
-@section('template_title')
-    Ingresoscaja
-@endsection
-
-@section('content')
+@extends('platilla')
+@section('Home')
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">

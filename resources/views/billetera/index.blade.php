@@ -1,10 +1,7 @@
-@extends('layouts.app')
+@extends('platilla')
 
-@section('template_title')
-    Billetera
-@endsection
+@section('Home')
 
-@section('content')
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">

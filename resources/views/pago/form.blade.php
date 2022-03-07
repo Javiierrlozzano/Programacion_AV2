@@ -1,14 +1,15 @@
 <div class="box box-info padding-1">
     <div class="box-body">
-        
+ 
         <div class="form-group">
             {{ Form::label('Cliente') }}
-            {{ Form::text('Cliente', $pago->Cliente, ['class' => 'form-control' . ($errors->has('Cliente') ? ' is-invalid' : ''), 'placeholder' => 'Cliente']) }}
+            {{ Form::text('Cliente', $pago->Clientes, ['class' => 'form-control' . ($errors->has('Cliente') ? ' is-invalid' : ''), 'placeholder' => 'Cliente']) }}
             {!! $errors->first('Cliente', '<div class="invalid-feedback">:message</div>') !!}
         </div>
+   
         <div class="form-group">
             {{ Form::label('Credito') }}
-            {{ Form::text('Credito', $pago->Credito, ['class' => 'form-control' . ($errors->has('Credito') ? ' is-invalid' : ''), 'placeholder' => 'Credito']) }}
+            {{ Form::text('Credito', $pago->Creditos, ['class' => 'form-control' . ($errors->has('Credito') ? ' is-invalid' : ''), 'placeholder' => 'Credito']) }}
             {!! $errors->first('Credito', '<div class="invalid-feedback">:message</div>') !!}
         </div>
         <div class="form-group">
